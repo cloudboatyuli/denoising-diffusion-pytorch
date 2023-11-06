@@ -1,8 +1,11 @@
+## env setup
 conda create -n diff python=3.8
 
 conda activate diff
 
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch (from https://pytorch.org/get-started/previous-versions/)
+conda install ipykernel
+
 
 pip install nibabel 
 pip install dipy
